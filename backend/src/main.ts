@@ -7,7 +7,7 @@ async function bootstrap() {
   
   // Enable CORS for frontend communication
   app.enableCors({
-    origin: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:5175'],
+    origin: true,
     credentials: true,
   });
 
@@ -17,8 +17,11 @@ async function bootstrap() {
     transform: true,
   }));
 
-  const port = process.env.PORT ?? 3001;
-  await app.listen(port);
-  console.log(`🚀 Backend server is running on: http://localhost:${port}`);
+  // Only listen if running locally (not serverless)
+  if (!process.env.VERCEL) {
+    const port = process.env.PORT ?? 3001;
+    await app.listen(port);
+    console.log(`🚀 Backend server is running on: http://localhost:${port}`);
+  }
 }
 bootstrap();
