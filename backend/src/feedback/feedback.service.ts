@@ -26,7 +26,6 @@ export class FeedbackService {
           name: createFeedbackDto.name,
           email: createFeedbackDto.email,
           message: createFeedbackDto.message,
-          timestamp: new Date().toISOString(),
         },
       ])
       .select();
@@ -42,7 +41,7 @@ export class FeedbackService {
     const { data, error } = await this.supabase
       .from('feedback')
       .select('*')
-      .order('timestamp', { ascending: false });
+      .order('created_at', { ascending: false });
 
     if (error) {
       throw new Error(`Failed to fetch feedback: ${error.message}`);
