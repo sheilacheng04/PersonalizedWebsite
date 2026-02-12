@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Project data for details
     const projectData = [
         {
-            icon: '<img src="assets/logo/VisiTrack_logo.png" alt="VisiTrack">',
+            icon: '<img src="../assets/logo/VisiTrack_logo.png" alt="VisiTrack">',
             title: 'VisiTrack',
             description: 'A visitor tracking system designed to organize entries, exits, and records efficiently.',
             fullDescription: 'VisiTrack helps manage visitor data by recording entries in a structured and reliable way. It focuses on accuracy, accountability, and ease of use, making manual tracking less chaotic. The system was designed with both function and clarity in mind.',
@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
             link: '#'
         },
         {
-            icon: '<img src="assets/logo/Contextufile_logo.png" alt="ContextuFile">',
+            icon: '<img src="../assets/logo/Contextufile_logo.png" alt="ContextuFile">',
             title: 'ContextuFile',
             description: 'An intelligent file organization system that understands what your files are about.',
             fullDescription: 'ContextuFile uses contextual meaning from file titles to automatically organize files into folders. Instead of manual sorting, the system analyzes keywords and intent to reduce clutter. It\'s built to make file management smarter and less annoying.',
@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
             link: '#'
         },
         {
-            icon: '<img src="assets/logo/ArisePH_logo.png" alt="ARISE PH Database">',
+            icon: '<img src="../assets/logo/ArisePH_logo.png" alt="ARISE PH Database">',
             title: 'ARISE PH Database',
             description: 'A centralized database system designed for structured data management.',
             fullDescription: 'ARISE PH Database focuses on data integrity, organization, and efficient retrieval. It was designed to support real-world use cases that require reliable records and reporting. The system emphasizes structure over chaos.',
@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
             link: '#'
         },
         {
-            icon: '<img src="assets/logo/Portfolio_logo.png" alt="Portfolio">',
+            icon: '<img src="../assets/logo/Portfolio_logo.png" alt="Portfolio">',
             title: 'Web Portfolio (Yes, This One)',
             description: 'A fully personalized portfolio built from scratch—no templates, just vibes.',
             fullDescription: 'This website was designed and coded to reflect my personality, interests, and skills. Inspired by underwater glass aesthetics, it focuses on smooth motion, playful interactions, and clarity. Every section was intentionally designed and developed.',

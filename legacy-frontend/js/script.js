@@ -45,9 +45,9 @@ let currentPage = 1;
 const totalPages = 3;
 
 const pageImages = {
-    1: { left: 'assets/projects/Page1-Left.png', right: 'assets/projects/Page1-Right.png', leftClick: 1, rightClick: 2 },
-    2: { left: 'assets/projects/Page2-Left.png', right: 'assets/projects/Page2-Right.png', leftClick: 1, rightClick: 3 },
-    3: { left: 'assets/projects/Page3-Left.png', right: 'assets/projects/Page3-Right.png', leftClick: 2, rightClick: 3 }
+    1: { left: '../assets/projects/Page1-Left.png', right: '../assets/projects/Page1-Right.png', leftClick: 1, rightClick: 2 },
+    2: { left: '../assets/projects/Page2-Left.png', right: '../assets/projects/Page2-Right.png', leftClick: 1, rightClick: 3 },
+    3: { left: '../assets/projects/Page3-Left.png', right: '../assets/projects/Page3-Right.png', leftClick: 2, rightClick: 3 }
 };
 
 function goToPage(pageNumber) {
